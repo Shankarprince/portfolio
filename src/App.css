@@ -174,7 +174,7 @@
 }
 
 .contact-container {
-  height: 70vh;
+  height: 80vh;
   width: 100%;
   background-color: lightgray;
   display: flex;
@@ -190,7 +190,7 @@
 
 .contact-container div {
   width: 50%;
-  height: 50vh;
+  height: 60vh;
   border: 2px solid darkgrey;
   border-radius: 20px;
 }
