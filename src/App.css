@@ -1,0 +1,216 @@
+.body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.intro-container {
+  background-color: skyblue;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.intro-container h1, .intro-container p {
+  font-size: 50px;
+  text-align: center;
+}
+
+.about-container {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about-container h1 {
+  color: skyblue;
+  width: 25%;
+  font-size: 50px;
+  font-weight: normal;
+}
+
+.about-container p {
+  width: 25%;
+  font-size: 25px;
+  border: 2px lightgray solid;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.education-container {
+  height: 50vh;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightgray;
+}
+
+.education-container h1 {
+  font-size: 50px;
+  font-weight: normal;
+  color: navy;
+}
+
+.education-container div {
+  border: 2px solid darkgray;
+  border-radius: 10px ;
+  width: 40%;
+  height: 30vh;
+}
+
+.education-container div p {
+  font-size: 25px;
+  margin: 20px;
+}
+
+.certifications-container, .projects-container {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.certifications-container section, .projects-container section {
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+  justify-content: space-between;
+  column-gap: 100px;
+  row-gap: 20px;
+}
+
+.certificate-container {
+  border: 2px solid lightgray;
+  width: 40%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.certifications-container h1, .projects-container h1 {
+  font-size: 50px;
+  font-weight: normal;
+  color: skyblue;
+}
+
+.certificate-container h2, .project-container h2 {
+  font-weight: normal;
+  color: navy;
+}
+
+.projects-container {
+  height: 135vh;
+  width: 100%;
+  background-color: lightgrey;
+}
+
+.projects-container h1 {
+  font-size: 50px;
+  font-weight: normal;
+  color: navy;
+}
+
+.project-container {
+  width: 45%;
+  height: 55vh ;
+  border: 2px darkgray solid;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.project-container p {
+  text-align: left;
+  margin-left: 5px;
+}
+
+.project-container p span {
+  font-weight: bold;
+}
+
+.projects-container a {
+  text-decoration: none;
+  color: black;
+  font-weight: normal;
+}
+
+.project-container a:hover{
+  color: blue;
+}
+
+.skills-container {
+  height: 50vh;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.skills-container h1 {
+  font-size: 50px;
+  font-weight: normal;
+  color: skyblue;
+}
+
+.skills-container p {
+  font-size: 30px;
+  border: 2px solid lightgray;
+  width: 40%;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.contact-container {
+  height: 70vh;
+  width: 100%;
+  background-color: lightgray;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contact-container h1 {
+  font-weight: normal;
+  font-size: 50px;
+  color: navy;
+}
+
+.contact-container div {
+  width: 50%;
+  height: 50vh;
+  border: 2px solid darkgrey;
+  border-radius: 20px;
+}
+
+.contact-container div p {
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+.contact-container span {
+  font-weight: bold; 
+}
+
+.contact-container a {
+  text-decoration: none;
+  color: black;
+}
+
+.contact-container a:hover {
+  text-decoration: none;
+  color: blue;
+}
+
